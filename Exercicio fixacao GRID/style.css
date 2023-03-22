@@ -7,14 +7,20 @@
     background-color: darkgray;
     min-height: 100vh;
     display: grid;
-    grid-template-columns: repeat(3, 1fr) ;
+    grid-template-columns:repeat(3,1fr);
     gap: 10px 15px;
-    grid-auto-rows: minmax(210px 100%);
-
+    grid-auto-rows: minmax(310px auto);
+    
 }
 .item {
     border:2px black solid;
     background-color: white;
     font-size: 30px;
     padding: 10px;
+}
+item1{
+    grid-column: 1/4;
+}
+.item2{
+    grid-column: 1/3;
 }
